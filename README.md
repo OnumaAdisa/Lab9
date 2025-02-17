@@ -1,1 +1,36 @@
 # Lab9
+- git checkout -b develop
+- git checkout -b feature/fetch-users
+- git add script.js index.html
+- git commit -m "โหลดรายชื่อผู้ใช้"
+- git checkout develop
+- git merge feature/fetch-users
+- git branch -d feature/fetch-users
+- git checkout -b feature/user-detail
+- git add user-detail.js user-detail.html
+- git commit -m "รายละเอียดผู้ใช้"
+- git checkout develop
+- git merge feature/user-detail
+- git branch -d feature/user-detail
+- git checkout -b feature/user-posts
+- git add user-posts.js user-posts.html
+- git commit -m "โพสต์ของผู้ใช้"
+- git checkout develop
+- git merge feature/user-posts
+- git branch -d feature/user-posts
+- git caheckout -b feature/ui-update
+- git add style.css
+- git commit -m "ปรับ UI ด้วย CSS"
+- git checkout develop
+- git merge feature/ui-update
+- git branch -d feature/ui-update
+- git checkout -b feature/toggle-comments
+- git add user-posts.js
+- git commit -m "เพิ่มฟีเจอร์ความคิดเห็น"
+- git checkout develop
+- git merge feature/toggle-comments
+- git branch -d feature/toggle-comments
+- git checkout main
+- git merge develop
+- git push -u origin main
+- git push origin develop
